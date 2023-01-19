@@ -5,4 +5,4 @@
 
 **Estudiante:** Luis Andres Sanchez Núñez.
 
-**Descripción:** Este repositorio es utilizado para cargar archivos relacionados al curso (**Codigo, Tareas, Presentaciones**).
+**Descripción:** Este repositorio es utilizado para cargar archivos relacionados al curso (**Codigo, Tareas, Presentaciones, etc.**).
