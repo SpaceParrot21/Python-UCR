@@ -1,11 +1,20 @@
+
+# Solicitar un numero entero positivo al usuario
+num_usuario = int(input("Ingrese un numero positivo entero al que se le va a calcular el factorial: "))
+
+# Variable del factorial
 factorial = 1
 
-f = int(input("Ingrese un número al que se le va a calcular el factorial:   "))
+# Mensaje de error si numero es menor a 0
+if num_usuario < 0:
+    print("---> Se necesita un numero positivo entero (Mayor o igual a ZERO), ejecute el codigo nuevamente y ingrese un numero <---")
+# Condicion si el numero es 0 o 1 mostrar que el factorial es 1.
 
-for x in range (1,f+1):
+elif num_usuario == 0 or num_usuario == 1:
+    print("El factorial de ", num_usuario," es", factorial)
 
-    factorial = factorial * x
-
- 
-
-print (" El factorial del número",f," ", "es",factorial)
+# Condicion con calculo matematico para obtener el numero factorial del numero ingresado por el usuario
+else:
+    for i in range(1, num_usuario+1):
+        factorial = factorial*i
+    print ("El factorial del número",num_usuario,"es",factorial)
