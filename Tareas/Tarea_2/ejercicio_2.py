@@ -13,7 +13,7 @@ while True:
     except ValueError:
         print("\nEsto no es un numero. Trate nuevamente...")        
 
-if num_usuario <= 1:
+if num_usuario <= 1: # Comprobar que el numero es mayor a 1, se requiere un numero mayor a 1
     print("El numero ingresado debe ser mayor a 1.")
 else:
     for x in range(1, num_usuario+1): # Varaible x desde 1 a numero ingresado por el usuario
