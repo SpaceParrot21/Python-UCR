@@ -1,3 +1,9 @@
+# Ejercicio 1 - Factorial del número dado
+# Descripcion: 
+
+# Escriba un programa en el que dado un número
+# por el usuario, imprima el factorial (!) de dicho número
+
 
 # Solicitar un numero entero positivo al usuario
 num_usuario = int(input("Ingrese un numero positivo entero al que se le va a calcular el factorial: "))
