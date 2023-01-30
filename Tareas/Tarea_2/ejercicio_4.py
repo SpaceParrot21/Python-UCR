@@ -5,7 +5,7 @@
 # imprima. Luego debe imprimir dicha lista pero con cada valor 
 # convertido en su cubo.
 
-# Crear una lista
+# Crear una lista y imprimirla
 mi_lista = [1, 2, 3, 4]
 print(mi_lista)
 
