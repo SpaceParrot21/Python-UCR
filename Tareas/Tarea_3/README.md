@@ -11,3 +11,17 @@
 
 
 [![Link al codigo Tarea 3](https://github.com/SpaceParrot21/Python-UCR/tree/main/Tareas/Tarea_2)]
+
+<br />
+<br />
+
+---
+
+
+
+
+
+<br />
+<br />
+
+---
