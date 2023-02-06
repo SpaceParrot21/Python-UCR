@@ -10,4 +10,4 @@
 **Descripción:** Este repositorio es utilizado para cargar archivos relacionados al curso (**Codigo, Tareas, Presentaciones, etc.**).
 
 
-[![Link al codigo Tarea 3](https://github.com/SpaceParrot21/Python-UCR/tree/main/Tareas/Tarea_2)
+[![Link al codigo Tarea 3](https://github.com/SpaceParrot21/Python-UCR/tree/main/Tareas/Tarea_2)]
