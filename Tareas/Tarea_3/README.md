@@ -1,4 +1,4 @@
-# Python-UCR-Tarea3
+# Python-UCR - Tarea3
 **Curso:** Programación con Python Nivel 1.
 
 **Instructor:** Arturo Zamora (I-2023).
