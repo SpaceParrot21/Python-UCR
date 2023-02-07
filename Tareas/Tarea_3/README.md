@@ -7,7 +7,9 @@
 - Luis Andres Sanchez Núñez.
 - Ignancio Brenes
 
+**LINKS:**
 [![Link directo codigo tarea03_calculadora.py](https://github.com/SpaceParrot21/Python-UCR/tree/main/Tareas/Tarea_2)]
+
 [![Link directo a codigo modulo_funciones.py](https://github.com/SpaceParrot21/Python-UCR/tree/main/Tareas/Tarea_2)]
 <br />
 <br />
