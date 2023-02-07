@@ -5,6 +5,26 @@
 - Luis Andres Sanchez Núñez.
 - Ignancio Brenes
 
+[![Link directo codigo tarea03_calculadora.py](https://github.com/SpaceParrot21/Python-UCR/tree/main/Tareas/Tarea_2)]
+[![Link directo a codigo modulo_funciones.py](https://github.com/SpaceParrot21/Python-UCR/tree/main/Tareas/Tarea_2)]
+<br />
+<br />
+
+---
+
+**Esta tarea consta de 2 documentos:**
+
+[![tarea03_calculadora.py](https://github.com/Ignacio-Brenes/Python_UCR/blob/tarea_grupal01/tarea03/tarea03_calculadora.py)]
+[![modulo_funciones.py](https://github.com/Ignacio-Brenes/Python_UCR/blob/tarea_grupal01/tarea03/modulo_funciones.py)]
+
+**Consideraciones a tomar durante la ejecucion de la calculadora:**
+
+- Para poder realizar alguna operacion matematica necesita tener el documento modulo_funciones.py en el mismo directorio
+de donde esta ejecutando tarea03_calculadora.py.
+- El programa le mostrara un menu de opciones, una vez que ingresa a la opcion selecionada el programa le va a solicitar los valores de acuerdo a los requerimientos solicitados por el professor en el enunciado que se muestra en la seccion "Enunciado".
+- En cada una de las opciones el programa le solicitara si desea continuar o salir con diferentes opciones que variar de operacion a operacion, esto con el fin de poner en practica diferentes metodos de realizar esto.
+- El programa le mostrara dentro de las opciones la opcion 7 - "SALIR" para salir del programa.
+
 <br />
 <br />
 
@@ -24,30 +44,7 @@
 6. Potencia: 1 número elevado al otro
 <!--END_SECTION:activity-->
 
-### Instrucciones Tarea 3:
-
-**Descripción:** Este repositorio es utilizado para cargar archivos relacionados al curso (**Codigo, Tareas, Presentaciones, etc.**).
-
-
-[![Link directo al codigo Tarea 3](https://github.com/SpaceParrot21/Python-UCR/tree/main/Tareas/Tarea_2)]
-
-<br />
-<br />
-
----
-
- tomar en
-cuenta las siguientes consideraciones:
-● La aplicación debe ser capaz de ejecutar las siguientes operaciones:
-○ Suma: entre n números
-○ Resta: entre 2 números
-○ Multiplicación: entre n números
-○ División: entre 2 número
-○ Factorial: de 1 número
-○ Potencia: 1 número elevado al otro
-
-
-
+[![Link directo al codigo Tarea 3](https://github.com/Ignacio-Brenes/Python_UCR/blob/tarea_grupal01/tarea03/tarea03_calculadora.py)]
 
 <br />
 <br />
