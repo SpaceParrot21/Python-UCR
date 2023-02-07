@@ -1,6 +1,8 @@
 # Python-UCR
 **Curso:** Programación con Python Nivel 1.
+
 **Instructor:** Arturo Zamora (I-2023).
+
 **Estudiantes:** 
 - Luis Andres Sanchez Núñez.
 - Ignancio Brenes
