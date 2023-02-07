@@ -33,7 +33,7 @@ de donde esta ejecutando tarea03_calculadora.py.
 ### Enunciado
 
 <details>
-  <summary>:zap: La calculadora creada toma en cuenta las siguientes consideraciones</summary>
+  <summary>:zap: La calculadora creada toma en cuenta las siguientes consideraciones:</summary>
 
 <!--START_SECTION:activity-->
 1. Suma: entre n números
