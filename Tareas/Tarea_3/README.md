@@ -20,6 +20,7 @@
 **Esta tarea consta de 2 documentos:**
 
 [![tarea03_calculadora.py](https://github.com/Ignacio-Brenes/Python_UCR/blob/tarea_grupal01/tarea03/tarea03_calculadora.py)]
+
 [![modulo_funciones.py](https://github.com/Ignacio-Brenes/Python_UCR/blob/tarea_grupal01/tarea03/modulo_funciones.py)]
 
 **Consideraciones a tomar durante la ejecucion de la calculadora:**
