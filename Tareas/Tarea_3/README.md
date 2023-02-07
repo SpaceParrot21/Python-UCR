@@ -28,10 +28,8 @@ de donde esta ejecutando tarea03_calculadora.py.
 - El programa le mostrara un menu de opciones, una vez que ingresa a la opcion selecionada el programa le va a solicitar los valores de acuerdo a los requerimientos solicitados por el professor en el enunciado que se muestra en la seccion "Enunciado".
 - En cada una de las opciones el programa le solicitara si desea continuar o salir con diferentes opciones que variar de operacion a operacion, esto con el fin de poner en practica diferentes metodos de realizar esto.
 - El programa le mostrara dentro de las opciones la opcion 7 - "SALIR" para salir del programa.
-
 <br />
 <br />
-
 ---
 
 ### Enunciado
