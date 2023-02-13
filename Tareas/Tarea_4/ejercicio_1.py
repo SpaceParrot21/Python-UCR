@@ -18,9 +18,9 @@ def conteo_letras_numeros_caracteres (string_prueba):
             caracteres_especiales += 1
     
     # Imprimir totales
-    print(f"La cantidad de letras es: {letras}")
-    print(f"La cantidad de numeros es: {numeros}")
-    print(f"La cantidad de caracteres especiales es: {caracteres_especiales}")
+    print(f"Cantidad de letras: {letras}")
+    print(f"Cantidad de numeros: {numeros}")
+    print(f"Cantidad de caracteres especiales: {caracteres_especiales}")
     return numeros, letras, caracteres_especiales
 
 #Invocacion de la funcion y casos de prueba
