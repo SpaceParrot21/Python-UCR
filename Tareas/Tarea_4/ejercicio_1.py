@@ -24,8 +24,8 @@ def conteo_letras_numeros_caracteres (string_prueba):
     return numeros, letras, caracteres_especiales
 
 #Invocacion de la funcion y casos de prueba
-# conteo_letras_numeros_caracteres("P@#yn26at^&i5ve")
+conteo_letras_numeros_caracteres("P@#yn26at^&i5ve")
 # conteo_letras_numeros_caracteres("Querty-21")
-conteo_letras_numeros_caracteres("Pyl@nc'3r-23")
+# conteo_letras_numeros_caracteres("Pyl@nc'3r-23")
 # conteo_letras_numeros_caracteres("Prueba4_56")
 # conteo_letras_numeros_caracteres("asdf4534")
