@@ -10,6 +10,7 @@ def player_game_over(player,dealer):
 def player_wins(player,dealer):
     print("\n ---> Player wins! <---")
     print("Player final score was: ", player.value)
+    # Aqui se podria guardar el score del usuario en un file
 
 def dealer_game_over(player,dealer):
     print("\n ---> DEALER BUSTED!!! GAME OVER!!! <---")
