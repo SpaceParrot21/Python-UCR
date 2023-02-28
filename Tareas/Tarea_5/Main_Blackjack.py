@@ -153,6 +153,8 @@ def show_all(player,dealer):
 
 def player_busts(player,dealer):
     print("Player busts!")
+    # Aqui se pueden guardar las estaditicas llamad
+    # llamando la funcion guardar_estadisiticas()
 
 def player_wins(player,dealer):
     print("Player wins!")

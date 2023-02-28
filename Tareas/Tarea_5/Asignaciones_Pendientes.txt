@@ -1,0 +1,9 @@
+John → **Punto3**- . Hacer el menu para escoger el jugador y Mostrar estadisticas. **Punto 7**. - almacenar los datos del usuario y las estadísticas en archivos de texto que serán creados por la aplicación.
+
+Luis → **Punto 8.** - Guardar clases en documentos separados (Ver si se pueden crear mas clases), guardar funciones en documetos separados. **Punto 2**. -   En cada turno se deben desplegar lo siguientes datos:
+
+a. Representar las cartas, solamente debe utilizar los símbolos unicode de cada palo (bastos, diamantes u oros, flores o cruces y corazones).
+
+Ambos: **Punto 6**. -  De forma OPCIONAL puede implementar algunas de las manos especiales del 21 como tres sietes, cinco menores, blackjack, etc.
+
+**Fecha revision de resultados:** Miercoles 1ero  5:00 pm
