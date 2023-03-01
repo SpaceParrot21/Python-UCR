@@ -10,7 +10,7 @@ class Deck:
         self.deck = []  # Starting with an empty list
         for suit in suits:
             for rank in ranks:
-                self.deck.append(suit, suits_values[suit], rank))
+                self.deck.append(suit, suits_values[suit], rank)
     
     def __str__(self):
         deck_comp = '' #strating competition deck empty#
