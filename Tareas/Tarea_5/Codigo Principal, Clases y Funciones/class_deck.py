@@ -1,4 +1,3 @@
-import class_card
 import random
 
 suits = ('Hearts', 'Diamonds', 'Spades', 'Clubs')
