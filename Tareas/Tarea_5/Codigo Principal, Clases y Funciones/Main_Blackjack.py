@@ -1,36 +1,33 @@
 '''Codigo Principal - BlackJack Game'''
+# Import Libraries
+import time
+
 # Import Classes
 import class_deck
 import class_hand
-
-# Import Libraries
-import os
-import time
 
 # Import Functions files
 import display_cards_and_score
 import clear_terminal as c_terminal
 import handle_game_scenarios
 
-playing = True
+PLAYING = True
 
-# Function for taking hits
-
+# function for taking hits - Posicion Original
 def hit(deck,hand):
     hand.add_card(deck.deal())
     hand.adjust_for_ace()
 
 # Player to take hits or stand
-
 def hit_or_stand(deck,hand):
-    global playing
+    global PLAYING
     
     while True:
         x = input("Would you like to Hit or Stand? Enter 'h' or 's' ---> ")
         c_terminal.clear()
 
-        # print(time.sleep(1), "\nGame in progress......")
-        # time.sleep(1) # Sleep for 3 seconds
+        print("\nGame in progress...... \n")
+        time.sleep(2) # Sleep for 2 seconds
 
         # Sanity checks for player's choice
         if x[0].lower() == 'h':
@@ -38,14 +35,15 @@ def hit_or_stand(deck,hand):
 
         elif x[0].lower() == 's':
             print("Player stands. Dealer is playing.")
-            playing = False
+            time.sleep(2)
+            PLAYING = False
 
         else:
             print("Sorry, please try again.")
             continue
         break
 
-# Start Game opening message
+#Start Game opening message
 while True:
     # Print an opening statement
     print("Welcome to the Blackjack game. The game has started...")
@@ -59,10 +57,10 @@ while True:
     time.sleep(0.5) # Sleep for 0.5 seconds
 
     # Create & shuffle the deck, deal two cards to each player
-    deck = class_deck.Deck()
+    deck = class_deck.Deck() # Calls Deck function
     deck.shuffle()
 
-    player_hand = class_hand.Hand()
+    player_hand = class_hand.Hand()  # Calls Hand function
     player_hand.add_card(deck.deal())
     player_hand.add_card(deck.deal())
     dealer_hand = class_hand.Hand()
@@ -70,9 +68,9 @@ while True:
     dealer_hand.add_card(deck.deal())
 
     # Show cards (but keep one dealer card hidden)
-    display_cards_and_score.show_some(player_hand, dealer_hand) # Call function to display some cards
+    display_cards_and_score.show_some(player_hand, dealer_hand) # CallS function to display some cards fucntion
 
-    while playing:  # recall this variable from our hit_or_stand function
+    while PLAYING:  # recall this variable from our hit_or_stand function
 
         # Prompt for Player to Hit or Stand
         hit_or_stand(deck, player_hand)
@@ -80,20 +78,24 @@ while True:
         # Show cards (but keep one dealer card hidden)
         display_cards_and_score.show_some(player_hand,dealer_hand)
 
-        # If player's hand exceeds 21, run player_busts() and break out of loop
+        # If player's hand exceeds 21, run player_game_over() and break out of loop
         if player_hand.value >21:
-            # player_busts(player_hand, dealer_hand, player_chips)
-            handle_game_scenarios.player_game_over(player_hand, dealer_hand)
+            handle_game_scenarios.player_game_over(player_hand, dealer_hand) # Calls function player_game_over() on game scenarios module
+            display_cards_and_score.show_all(player_hand,dealer_hand) # CallS function to display all cards function
+            break
+        # If dealer's hand is equal 21, run dealer_wins() and break out of loop
+        elif dealer_hand.value == 21:
+            handle_game_scenarios.dealer_wins(player_hand,dealer_hand)
+            display_cards_and_score.show_all(player_hand,dealer_hand) # CallS function to display all cards function
             break
 
     # If Player hasn't busted, play Dealer's hand until Dealer reaches 19
     if player_hand.value <= 21:
 
         while dealer_hand.value <19:
+            # hit(deck, dealer_hand)
             hit(deck, dealer_hand)
-
-        # Show all cards
-        display_cards_and_score.show_all(player_hand,dealer_hand)
+            display_cards_and_score.show_all(player_hand,dealer_hand) # CallS function to display all cards function
 
         # Run different winning scenarios
         if player_hand.value == 21:
@@ -109,11 +111,14 @@ while True:
 
     # Ask to play again
     new_game = input("Would you like to play again? Enter 'y' or 'n' ---> ")
-    c_terminal.clear()
+    # c_terminal.clear()
     if new_game[0].lower() == 'y':
-        playing = True
+        PLAYING = True
+        c_terminal.clear()
         continue
+    elif new_game[0].lower() == 'n':
+            print('Thanks for playing! The game is over.\n')      
     else:
-        print('Thanks for playing! ')
-
-        break
+        print("Sorry, please try again.")
+        continue
+    break
