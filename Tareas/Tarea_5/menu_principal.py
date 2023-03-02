@@ -1,5 +1,5 @@
 
-from funciones5 import menu_usuarios
+
 
 def menu_de_juego():
     while True:
