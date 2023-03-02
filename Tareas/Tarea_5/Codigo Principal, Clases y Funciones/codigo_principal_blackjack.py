@@ -13,6 +13,9 @@ import handle_game_scenarios
 
 PLAYING = True
 
+
+
+
 # function for taking hits - Posicion Original
 def hit(deck,hand):
     hand.add_card(deck.deal())
