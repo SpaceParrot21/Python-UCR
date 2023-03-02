@@ -46,8 +46,12 @@ def hit_or_stand(deck,hand):
             continue
         break
 
-#Start Game opening message
+#Start Game opening message and user selection
 while True:
+    # Selecione el usuario con el que desea jugar
+
+
+    
     # Print an opening statement
     print("Welcome to the Blackjack game. The game has started...")
     time.sleep(1) # Sleep for 1 seconds
