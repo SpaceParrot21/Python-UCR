@@ -11,6 +11,9 @@ import display_cards_and_score
 import clear_terminal as c_terminal
 import handle_game_scenarios
 
+#menu de usuarios
+import menu_usuarios()
+
 PLAYING = True
 
 
@@ -49,7 +52,7 @@ def hit_or_stand(deck,hand):
 #Start Game opening message and user selection
 while True:
     # Selecione el usuario con el que desea jugar
-
+    menu_usuarios()
 
     
     # Print an opening statement
