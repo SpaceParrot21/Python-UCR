@@ -1,4 +1,3 @@
-
 # Diccionario de usuarios
 usuarios = {}
 
@@ -33,7 +32,8 @@ def menu_usuarios():
         print("Menú de usuarios:")
         print("1. Seleccionar usuario existente")
         print("2. Crear un nuevo usuario")
-        print("3. Salir")
+        print("3. iniciar juego")
+        print("4.  salir")
         opcion = input("Selecciona una opción: ")
         if opcion == "1":
             seleccionar_usuario()
@@ -41,6 +41,8 @@ def menu_usuarios():
             crear_usuario()
         elif opcion == "3":
             break
+        elif opcion == "4":
+            exit()
         else:
             print("Opción inválida")
 
