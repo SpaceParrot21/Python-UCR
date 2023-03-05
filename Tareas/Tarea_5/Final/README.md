@@ -1,11 +1,11 @@
-# Python-UCR - Tarea3
+# Python-UCR - Projecto 1
 **Curso:** Programación con Python Nivel 1.
 
 **Instructor:** Arturo Zamora (I-2023).
 
 **Estudiantes:** 
 - Luis Andres Sanchez Núñez.
-- Ignacio Brenes.
+- John Astúa.
 
 **LINKS:**
 
@@ -17,7 +17,7 @@
 
 ---
 
-### Esta tarea consta de 2 documentos:
+### Esta tarea consta de 8 documentos:
 
 [![tarea03_calculadora.py](https://github.com/Ignacio-Brenes/Python_UCR/blob/main/tarea03/tarea03_calculadora.py)]
 
