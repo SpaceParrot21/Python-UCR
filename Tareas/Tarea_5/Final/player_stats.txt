@@ -1,0 +1,11 @@
+['Luis'] won with a total of 21.
+['Luis'] won with a total of 16.
+['John'] won with a total of 19.
+['Luis']  won with a total of 20.
+['John'] lost with a total of 20.
+['Luis'] won with a total of 13.
+['Arturo'] lost with a total of 17.
+['Melissa'] won with a total of 21.
+['Pepo'] won with a total of 19.
+['Khalifa'] won with a 'BLACKJACK' 21.
+['Arturo'] won with a total of 19.
