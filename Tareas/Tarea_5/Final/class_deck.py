@@ -2,8 +2,12 @@
 the Card Class, we generate a deck of cards, 
 shuffle our deck, and to deal out cards during gameplay'''
 
-import class_card
+# Import Library
 import random
+
+# Import class
+import class_card
+
 
 suits = ('Hearts', 'Diamonds', 'Spades', 'Clubs')
 suits_values = {"Spades":"\u2664", "Hearts":"\u2661", "Clubs": "\u2667", "Diamonds": "\u2662"}

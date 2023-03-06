@@ -3,8 +3,8 @@ This module contains the functions for the following tasks:
 - Display menu of users
 - Show players' stats
 - Show cards
-- Show results and 
--Handle game scenarios and save results to 'Stats.txt' file
+- Show results 
+- Handle game scenarios and save results to 'Stats.txt' file
 - Save the results in the player stats file ('Stats.txt')
 '''
 

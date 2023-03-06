@@ -33,42 +33,61 @@
 
 [![Link directo a codigo class_deck.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_deck.py)]
 
-#### - Hand class may be used to calculate the value of those cards using the values dictionary defined in this file. It also adjusts the value of Aces when appropriate:
+#### - Hand class may be used to calculate the value of those cards using the values of the dictionary defined in this file. It also adjusts the value of Aces when appropriate:
 
 [![Link directo a codigo class_hand.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_hand.py)]
 
-#### - This file contains the player stats saved after each game:
+#### - This file contains the player stats saved after each game and it will also be used to display player stats when the user is selected at the beggining of the game:
 
 [![Link directo a codigo player_stats.txt](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/player_stats.txt)]
 
 
 **Consideraciones a tomar durante la ejecucion del juego:**
 
-- Para poder jugar necesita tener los 6 documentos de la seccion ***LINK*** en el mismo directorio para poder ejecutar el juego correctamente.
+- Para poder jugar necesita tener los 6 documentos mencionados en la seccion ***"LINKS"*** en el mismo directorio para poder ejecutar el juego correctamente.
 - Solamente un jugador puede juagar a las vez contra el 'dealer'.
 - El programa le mostrara un menu de seleccion de usuarios con las siguientes opciones (1. Select an existing user, 2. Create a new user, 3. Start Game, 4. Exit).
--Una vez que ingresa a la opcion selecionada el programa le va a mostrar los valores de acuerdo a la opcion seleccionada.
+- Una vez que ingresa a la opcion selecionada el programa le va a mostrar los valores de acuerdo a la opcion seleccionada.
 - El programa cuenta con una lista de Usuarios pre-definida. Sin embargo, el juego le permitira crear un nuevo usuario y sera agregado a la lista de 'Usuarios' pero sera eliminado cuando salga del juego (Asi fue programado el juego). 
-- El juego requiere que seleccione un jugador de lo contrario le continuara preguntado que seleccione un usuario.
-- Si ingreso un usuario que no esta en la lista el programa le indicara que el usuario no se encuentra registrado.
+- Es un rquisito seleccionar, de lo contrario le continuara preguntado que seleccione un usuario.
+- Si ingreso un usuario que no esta en la lista, el programa le indicara que el usuario no se encuentra registrado.
 - El nombre del Usuario con el que desea jugar debe ser ingresado tal y como se lo mostro el programa. De lo contrario se le indicara que el usuario no se encuentra definido.
-- El juego le mostrara un mensaje indicandole que el juego ha iniciado el juego luego de que seleciono el usuario y selecciono la opcion 3 para iniciar el juego. A la misma vez, el juego iniciara a barajar la baraja y repartira dos cartas a cada jugador.
-- Seguido del paso anterior se le mostra las cartas obtenidas, su total y se le preguntara si desea tomar mas cartas (Hit) o no tomar mas cartas (stand).
-- El juego mostrara un mensaje cuando el usuario decida  tomar mas cartas (Hit) y mostrara que el juego esta en progreso cuando el jugador esta tomando mas cartas.
-- El juego mostrara un mensaje cuando el usuario decida no tomar mas cartas (stand) y mostrara que el 'Dealer esta jugando.
-- El juego constantemente limpiara la terminal/consola eliminando los comandos y resultados ingresados/mostrados. Esta tarea es realizada por medio de una funcion para mantener la terminal/consola limpia para tener una mejor experiencia durante el juego.
-- El juego cuenta con un retraso al mostrar ciertos mensajes o al ejecutar las siguiente linea de codigo para agregar suspenso al juego y mejorar la experiencia de juego.
+- El programa le mostrara un mensaje indicandole que el juego ha iniciado luego de haber seleccionado el usuario y haber seleccion la opcion 3. A la misma vez, el juego comenzara a barajar las cartas y repartira dos cartas a cada jugador.
 - El juego esta programado para mantener la segunda carta del 'Dealer' escondida hasta que el jugador selecionado decida no tomar mas cartas (stand).
+- Seguido del paso anterior se le mostra las cartas obtenidas, su total y se le preguntara si desea tomar mas cartas (Hit) o no tomar mas cartas (stand).
+- El juego mostrara un mensaje cuando el usuario decida tomar mas cartas (Hit) y le indicara que el juego esta en progreso cuando el jugador esta tomando mas cartas.
+- El juego mostrara un mensaje cuando el usuario decida no tomar mas cartas (stand) y mostrara que el 'Dealer esta jugando.
+- El juego constantemente limpiara la terminal/consola eliminando los comandos y resultados ingresados/mostrados. Esta tarea es realizada por medio de una funcion para mantener la terminal/consola limpia con el fin de obtener una mejor experiencia durante el juego.
+- El programa cuenta con pausas variadas durante el juego (sleep()) al mostrar ciertos mensajes o al ejecutar las siguiente linea de codigo, para agregar suspenso y mejorar la experiencia de juego.
 - Una vez concluida una partida el juego mostrara un mensaje indicando si gano o perdio, seguidamente le preguntara si desar jugar de nuevo o salir.
-- El programa le mostrara dentro de las opciones la opcion 7 - "SALIR" para salir del programa.
+- El programa le mostrara dentro de las opciones la opcion 4 - (SALIR) para salir del juego.
 
 ---
 
 ### Mejoras a Futuro
 
-- Permitir guardar definitivamente el usuario creado en la lista de 'Usuarios'.
+- Permitir guardar en la lista de 'Usuarios'  definitivamente el nuevo usuario creado por el jugador.
 - Mostar el promedio de partidas ganadas y perdidas de un jugador.
-- Incluir una opcion en el menu que muestre partidas ganadas y perdidas todos los jugadores. 
+- Incluir opcion "Estadisticas" en el menu que muestre partidas ganadas y perdidas de todos los jugadores. 
+
+---
+
+
+**LINKS:**
+
+[![Link directo al codigo principal codigo_principal_blackjack.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_blackjack_game.py)]
+
+[![Link directo a codigo main_functions_module.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_functions_module.py)]
+
+[![Link directo a codigo class_card.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_card.py)]
+
+[![Link directo a codigo class_deck.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_deck.py)]
+
+[![Link directo a codigo class_hand.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_hand.py)]
+
+[![Link directo a codigo player_stats.txt](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/player_stats.txt)]
+<br />
+<br />
 
 ---
 
@@ -108,20 +127,3 @@ elementos del juego.
 <!--END_SECTION:activity-->
 
 
-**LINKS:**
-
-[![Link directo al codigo principal codigo_principal_blackjack.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_blackjack_game.py)]
-
-[![Link directo a codigo main_functions_module.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_functions_module.py)]
-
-[![Link directo a codigo class_card.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_card.py)]
-
-[![Link directo a codigo class_deck.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_deck.py)]
-
-[![Link directo a codigo class_hand.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_hand.py)]
-
-[![Link directo a codigo player_stats.txt](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/player_stats.txt)]
-<br />
-<br />
-
----
