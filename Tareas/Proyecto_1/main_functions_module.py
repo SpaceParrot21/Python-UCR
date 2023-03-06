@@ -114,7 +114,7 @@ def seleccionar_usuario():
             reading_statistics()
             print( "\n---> Select option '3' to start the game or option '4' to exit <---\n")
         else:
-            print("Usert not found")          
+            print("User not found")          
 
 # Function to create new user
 def crear_usuario():
@@ -136,7 +136,7 @@ def player_blackjack(player,dealer):
     print("\n ---> PLAYER HAS A BLACKJACK <---")
     print(USUARIO_SELECIONADO, "won with a 'BLACKJACK'", player.value,".")
     output_file = open("player_stats.txt", "a")
-    output_file.write(f"\n{USUARIO_SELECIONADO} won with a 'BLACKJACK' {player.value}.\n")
+    output_file.write(f"{USUARIO_SELECIONADO} won with a 'BLACKJACK' {player.value}.\n")
     output_file.close()
     
 def player_game_over(player,dealer):
@@ -147,14 +147,14 @@ def player_wins(player,dealer):
     print("\n ---> Player wins! <---")
     print(USUARIO_SELECIONADO, "won with a total of", player.value,".")
     output_file = open("player_stats.txt", "a")
-    output_file.write(f"\n{USUARIO_SELECIONADO} won with a total of {player.value}.\n")
+    output_file.write(f"{USUARIO_SELECIONADO} won with a total of {player.value}.\n")
     output_file.close()
 
 def dealer_game_over(player,dealer):
     print("\n ---> DEALER BUSTED!!! <---")
     print(USUARIO_SELECIONADO, "won with a total of", player.value,".")
     output_file = open("player_stats.txt", "a")
-    output_file.write(f"\n{USUARIO_SELECIONADO} won with a total of {player.value}.\n")
+    output_file.write(f"{USUARIO_SELECIONADO} won with a total of {player.value}.\n")
     output_file.close()
 
 def dealer_wins(player,dealer):
@@ -165,7 +165,7 @@ def push(player,dealer):
     print("\n ---> Dealer and Player tie! It's a push. <---")
     print(USUARIO_SELECIONADO, "tied with",player.value,".")
     output_file = open("player_stats.txt", "a")
-    output_file.write(f"\n{USUARIO_SELECIONADO} tied with {player.value}.\n")
+    output_file.write(f"{USUARIO_SELECIONADO} tied with {player.value}.\n")
     output_file.close()
 
 # Module functions to display cards and score

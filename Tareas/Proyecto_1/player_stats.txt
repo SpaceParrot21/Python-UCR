@@ -9,3 +9,7 @@
 ['Pepo'] won with a total of 19.
 ['Khalifa'] won with a 'BLACKJACK' 21.
 ['Arturo'] won with a total of 19.
+['Arturo'] won with a total of 19.
+['Melissa'] won with a total of 20.['John'] won with a total of 20.
+['John'] won with a 'BLACKJACK' 21.['John'] tied with 20.
+['John'] won with a total of 20.
