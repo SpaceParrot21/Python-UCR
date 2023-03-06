@@ -45,7 +45,8 @@ def menu_usuarios():
             else:
                 break
         elif opcion == "4":
-            break
+            print("Good bye! The game is over.")
+            quit()
         else:
             print("Invalid Option!")
 

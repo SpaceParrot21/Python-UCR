@@ -46,7 +46,6 @@
 
 - Para poder jugar necesita tener los 6 documentos de la seccion ***LINK*** en el mismo directorio para poder ejecutar el juego correctamente.
 - Solamente un jugador puede juagar a las vez contra el 'dealer'.
-- 
 - El programa le mostrara un menu de seleccion de usuarios con las siguientes opciones (1. Select an existing user, 2. Create a new user, 3. Start Game, 4. Exit).
 -Una vez que ingresa a la opcion selecionada el programa le va a mostrar los valores de acuerdo a la opcion seleccionada.
 - El programa cuenta con una lista de Usuarios pre-definida. Sin embargo, el juego le permitira crear un nuevo usuario y sera agregado a la lista de 'Usuarios' pero sera eliminado cuando salga del juego (Asi fue programado el juego). 
@@ -69,8 +68,7 @@
 
 - Permitir guardar definitivamente el usuario creado en la lista de 'Usuarios'.
 - Mostar el promedio de partidas ganadas y perdidas de un jugador.
-- Incluir una opcion en el menu que muestre partidas ganadas y perdidas todos los jugadores.
-- Por razones de tiempo la opcion 4 del menu, no termina la ejecucion del juego 
+- Incluir una opcion en el menu que muestre partidas ganadas y perdidas todos los jugadores. 
 
 ---
 
