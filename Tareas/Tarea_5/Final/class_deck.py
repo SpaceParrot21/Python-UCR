@@ -6,7 +6,6 @@ import class_card
 import random
 
 suits = ('Hearts', 'Diamonds', 'Spades', 'Clubs')
-# suits = ('\u2764', '\u2666', '\u2660', '\u2618')
 suits_values = {"Spades":"\u2664", "Hearts":"\u2661", "Clubs": "\u2667", "Diamonds": "\u2662"}
 ranks = ('Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Jack', 'Queen', 'King', 'Ace')
 class Deck:
