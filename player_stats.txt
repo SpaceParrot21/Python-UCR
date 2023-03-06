@@ -1,0 +1,2 @@
+
+['Luis'] won with a total of 20.

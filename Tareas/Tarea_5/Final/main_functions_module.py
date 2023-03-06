@@ -1,13 +1,19 @@
-'''This module contains the functions for the Menu
-of users, show players' stats, show cards,
-results and save the results in a file'''
+'''
+This module contains the functions for the following tasks:
+- Display menu of users
+- Show players' stats
+- Show cards
+- Show results and 
+-Handle game scenarios and save results to 'Stats.txt' file
+- Save the results in the player stats file ('Stats.txt')
+'''
 
 '''All these functions require the same Global variables 
 to be able to operate correctly and show the
 desired results'''
 
 # Import Clear Terminal function to keep terminal clean
-import clear_terminal as c_terminal
+# import clear_terminal as c_terminal
 
 # Global Variables
 global USUARIOS
@@ -27,13 +33,13 @@ def menu_usuarios():
         print("3. Start Game")
         print("4. Exit")
         opcion = input("\nSelect an Option: ")
-        c_terminal.clear()
+        clear()
         if opcion == "1":
             seleccionar_usuario()
         elif opcion == "2":
             crear_usuario()
         elif opcion == "3":
-            c_terminal.clear()
+            clear()
             if len(USUARIO_SELECIONADO) == 0:
                 print("\nNo user has been selected yet!!!\n")
             else:
@@ -43,7 +49,7 @@ def menu_usuarios():
         else:
             print("Invalid Option!")
 
-# Function to display selected player statistics 
+# Function to display selected player statistics
 def reading_statistics():
 
     file_name = "player_stats.txt"
@@ -99,13 +105,12 @@ def seleccionar_usuario():
         for usuario in USUARIOS:
             print(usuario)
         JUGADOR = input("Select an user: ")
-        c_terminal.clear()
+        clear()
         if JUGADOR in USUARIOS:
             print("\nYou have selected the user", JUGADOR,)
             # Show player stats
             USUARIO_SELECIONADO.append(JUGADOR)
             reading_statistics()
-            # c_terminal.clear()
             print( "\n---> Select option '3' to start the game or option '4' to exit <---\n")
         else:
             print("Usert not found")          
@@ -124,7 +129,7 @@ def crear_usuario():
 '''Module functions to handle game scenarios and
 save results to 'Stats' file.'''
 
-# Functions to handle game scenarios and save results to 'Estatistics' file.
+# Functions to handle game scenarios and save results to 'Stats.txt' file.
 
 def player_blackjack(player,dealer):
     print("\n ---> PLAYER HAS A BLACKJACK <---")
@@ -161,3 +166,28 @@ def push(player,dealer):
     output_file = open("player_stats.txt", "a")
     output_file.write(f"\n{USUARIO_SELECIONADO} tied with {player.value}.\n")
     output_file.close()
+
+# Module functions to display cards and score
+
+def show_some(player,dealer):
+    print("\n-> Dealer's Hand")
+    print("-> ", dealer.cards[1])
+    print("->  <Card Hidden>")
+    print("\n-> Player's Hand: ", *player.cards, sep= '\n')
+    print("Player's Hand = ", player.value)
+
+def show_all(player,dealer):
+    clear()
+    print("\n-> Dealer's Hand:", *dealer.cards, sep="\n")
+    print("Dealer's Hand =",dealer.value)
+    print("\n-> Player's Hand: ", *player.cards, sep= '\n')
+    print("Player's Hand = ", player.value)
+
+
+
+# Function to clear terminal, to keep terminal clean
+
+import os
+# Clear the terminal
+def clear():
+    os.system("cls")

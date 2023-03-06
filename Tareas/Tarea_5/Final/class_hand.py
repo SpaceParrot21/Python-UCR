@@ -1,5 +1,5 @@
 '''Hand class may be used to calculate the value of those cards \
-    using the values dictionary defined above. It also \
+    using the values dictionary defined below. It also \
         adjusts the value of Aces when appropriate'''
 
 
