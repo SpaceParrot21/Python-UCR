@@ -15,29 +15,29 @@
 
 [![Link directo al codigo principal main_blackjack_game.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_blackjack_game.py)]
 
-#### - The following module contains the functions for the following tasks:
-- Display menu of users
-- Show players' stats
-- Show cards
-- Show results and 
--Handle game scenarios and save results to 'Stats.txt' file
-- Save the results in the player stats file ('Stats.txt')
+#### - El siguiente módulo contiene las funciones para las siguientes tareas:
+- Menú de visualización de los usuarios
+- Mostrar las estadísticas de los jugadores
+- Mostrar cartas
+- Mostrar resultado 
+- Manejar escenarios de juego y guardar los resultados en el archivo 'Stats.txt'
+- Guardar los resultados en el archivo de estadísticas del jugador ('Stats.txt')
 
 [![Link directo a codigo main_functions_module.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_functions_module.py)]
 
-#### - Class to create a proper deck of cards containing 52 Card objects (deck)with the help of class_deck.py class to retrun a string in the form “Two of Hearts + unicode value”:
+#### - Clase para crear un mazo de cartas adecuado que contenga 52 cartas (deck) con la ayuda de la clase class_deck.py para devolver una cadena de la siguiente forma “Two of Hearts + unicode value”:
 
 [![Link directo a codigo class_card.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_card.py)]
 
-#### - Contains the values suits, suit values, ranks and the Card Class, we generate a deck of cards, shuffle our deck, and to deal out cards during gameplay:
+#### - Contiene los valores de los palos, los valores de los palos, los rangos y la clase de la tarjeta, generamos una baraja de cartas, barajamos nuestra baraja, y repartimos cartas durante el juego:
 
 [![Link directo a codigo class_deck.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_deck.py)]
 
-#### - Hand class may be used to calculate the value of those cards using the values of the dictionary defined in this file. It also adjusts the value of Aces when appropriate:
+#### - La clase de mano puede ser utilizada para calcular el valor de esas tarjetas usando los valores del diccionario definido en el file. También ajusta el valor de los ases cuando sea apropiado:
 
 [![Link directo a codigo class_hand.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_hand.py)]
 
-#### - This file contains the player stats saved after each game and it will also be used to display player stats when the user is selected at the beggining of the game:
+#### - Este archivo contiene las estadísticas del jugador guardadas después de cada juego y también se utilizará para mostrar las estadísticas del jugador cuando el usuario es seleccionado al inicio del juego:
 
 [![Link directo a codigo player_stats.txt](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/player_stats.txt)]
 
@@ -49,15 +49,15 @@
 - El programa le mostrara un menu de seleccion de usuarios con las siguientes opciones (1. Select an existing user, 2. Create a new user, 3. Start Game, 4. Exit).
 - Una vez que ingresa a la opcion selecionada el programa le va a mostrar los valores de acuerdo a la opcion seleccionada.
 - El programa cuenta con una lista de Usuarios pre-definida. Sin embargo, el juego le permitira crear un nuevo usuario y sera agregado a la lista de 'Usuarios' pero sera eliminado cuando salga del juego (Asi fue programado el juego). 
-- Es un rquisito seleccionar, de lo contrario le continuara preguntado que seleccione un usuario.
+- Es un requisito seleccionar un usuario, de lo contrario el progrma continuara preguntado que seleccione un usuario.
 - Si ingreso un usuario que no esta en la lista, el programa le indicara que el usuario no se encuentra registrado.
 - El nombre del Usuario con el que desea jugar debe ser ingresado tal y como se lo mostro el programa. De lo contrario se le indicara que el usuario no se encuentra definido.
-- El programa le mostrara un mensaje indicandole que el juego ha iniciado luego de haber seleccionado el usuario y haber seleccion la opcion 3. A la misma vez, el juego comenzara a barajar las cartas y repartira dos cartas a cada jugador.
+- El programa le mostrara un mensaje indicandole que el juego ha iniciado luego de haber seleccionado el usuario y haber seleccionado la opcion 3. A la misma vez, el juego comenzara a barajar las cartas y repartira dos cartas a cada jugador.
 - El juego esta programado para mantener la segunda carta del 'Dealer' escondida hasta que el jugador selecionado decida no tomar mas cartas (stand).
 - Seguido del paso anterior se le mostra las cartas obtenidas, su total y se le preguntara si desea tomar mas cartas (Hit) o no tomar mas cartas (stand).
 - El juego mostrara un mensaje cuando el usuario decida tomar mas cartas (Hit) y le indicara que el juego esta en progreso cuando el jugador esta tomando mas cartas.
 - El juego mostrara un mensaje cuando el usuario decida no tomar mas cartas (stand) y mostrara que el 'Dealer esta jugando.
-- El juego constantemente limpiara la terminal/consola eliminando los comandos y resultados ingresados/mostrados. Esta tarea es realizada por medio de una funcion para mantener la terminal/consola limpia con el fin de obtener una mejor experiencia durante el juego.
+- El programa constantemente limpiara la terminal/consola eliminando los comandos y resultados ingresados/mostrados. Esta tarea es realizada por medio de una funcion con el fin de obtener una mejor experiencia durante el juego.
 - El programa cuenta con pausas variadas durante el juego (sleep()) al mostrar ciertos mensajes o al ejecutar las siguiente linea de codigo, para agregar suspenso y mejorar la experiencia de juego.
 - Una vez concluida una partida el juego mostrara un mensaje indicando si gano o perdio, seguidamente le preguntara si desar jugar de nuevo o salir.
 - El programa le mostrara dentro de las opciones la opcion 4 - (SALIR) para salir del juego.
@@ -66,7 +66,7 @@
 
 ### Mejoras a Futuro
 
-- Permitir guardar en la lista de 'Usuarios'  definitivamente el nuevo usuario creado por el jugador.
+- Permitir guardar en la lista de 'Usuarios' definitivamente el nuevo usuario creado por el jugador.
 - Mostar el promedio de partidas ganadas y perdidas de un jugador.
 - Incluir opcion "Estadisticas" en el menu que muestre partidas ganadas y perdidas de todos los jugadores. 
 
