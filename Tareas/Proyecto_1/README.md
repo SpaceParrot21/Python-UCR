@@ -1,4 +1,4 @@
-# Python-UCR - Projecto 1
+# Python-UCR - Proyecto 1
 **Curso:** Programación con Python Nivel 1.
 
 **Instructor:** Arturo Zamora (I-2023).
@@ -13,7 +13,7 @@
 
 #### - Codigo principal del juego - BlackJack Game:
 
-[![Link directo al codigo principal main_blackjack_game.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_blackjack_game.py)]
+[![Link directo al codigo principal main_blackjack_game.py](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/main_blackjack_game.py)]
 
 #### - El siguiente módulo contiene las funciones para las siguientes tareas:
 - Menú de visualización de los usuarios
@@ -23,23 +23,23 @@
 - Manejar escenarios de juego y guardar los resultados en el archivo 'Stats.txt'
 - Guardar los resultados en el archivo de estadísticas del jugador ('Stats.txt')
 
-[![Link directo a codigo main_functions_module.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_functions_module.py)]
+[![Link directo a codigo main_functions_module.py](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/main_functions_module.py)]
 
 #### - Clase para crear un mazo de cartas adecuado que contenga 52 cartas (deck) con la ayuda de la clase class_deck.py para devolver una cadena de la siguiente forma “Two of Hearts + unicode value”:
 
-[![Link directo a codigo class_card.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_card.py)]
+[![Link directo a codigo class_card.py](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/class_card.py)]
 
 #### - Contiene los valores de los palos, los valores de los palos, los rangos y la clase de la tarjeta, generamos una baraja de cartas, barajamos nuestra baraja, y repartimos cartas durante el juego:
 
-[![Link directo a codigo class_deck.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_deck.py)]
+[![Link directo a codigo class_deck.py](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/class_deck.py)]
 
 #### - La clase de mano puede ser utilizada para calcular el valor de esas tarjetas usando los valores del diccionario definido en el file. También ajusta el valor de los ases cuando sea apropiado:
 
-[![Link directo a codigo class_hand.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_hand.py)]
+[![Link directo a codigo class_hand.py](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/class_hand.py)]
 
 #### - Este archivo contiene las estadísticas del jugador guardadas después de cada juego y también se utilizará para mostrar las estadísticas del jugador cuando el usuario es seleccionado al inicio del juego:
 
-[![Link directo a codigo player_stats.txt](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/player_stats.txt)]
+[![Link directo a codigo player_stats.txt](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/player_stats.txt)]
 
 
 **Consideraciones a tomar durante la ejecucion del juego:**
@@ -75,17 +75,19 @@
 
 **LINKS:**
 
-[![Link directo al codigo principal codigo_principal_blackjack.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_blackjack_game.py)]
+[![Link directo a carpeta Proyecto 1](https://github.com/SpaceParrot21/Python-UCR/tree/main/Tareas/Proyecto_1)]
 
-[![Link directo a codigo main_functions_module.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_functions_module.py)]
+[![Link directo al codigo principal main_blackjack_game.py](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/main_blackjack_game.py)]
 
-[![Link directo a codigo class_card.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_card.py)]
+[![Link directo a codigo main_functions_module.py](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/main_functions_module.py)]
 
-[![Link directo a codigo class_deck.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_deck.py)]
+[![Link directo a codigo class_card.py](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/class_card.py)]
 
-[![Link directo a codigo class_hand.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_hand.py)]
+[![Link directo a codigo class_deck.py](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/class_deck.py)]
 
-[![Link directo a codigo player_stats.txt](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/player_stats.txt)]
+[![Link directo a codigo class_hand.py](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/class_hand.py)]
+
+[![Link directo a codigo player_stats.txt](https://github.com/SpaceParrot21/Python-UCR/blob/main/Tareas/Proyecto_1/player_stats.txt)]
 <br />
 <br />
 
