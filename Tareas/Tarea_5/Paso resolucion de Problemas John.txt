@@ -1,0 +1,36 @@
+
+
+*interfaz
+-elegir usuario 
+  -se despliega la lista de usurios registrados
+     -jugar
+     -estadisticas [un archivo aparte donde esten las estadiscas de todos los jugadores]
+       -almacenar los datos(estadisticas) de las partidas jugadas de cada usuario 
+-salir
+-crear un nuevo usuario[se guarda en el archivo de usuarios]
+-salir
+
+*inicia la partida
+  [usar una funcion para crear masos aleatorios "import random"]
+  [imprimi en pantalla el deck de los jugadores y del dealer ]
+ -se reparte a los jugadores primero(las cartas hacia arriva)[imprimir el numero y el simbolo de cada carta, tambien el valor total de deck]
+ -se le reparte al dealer(una carta hacia abajo y la otra hacia arriva)[seguir las reglas obligatorias del diler][imprimir el deck en pantalla]
+   -si al inicio tiene 21 gana directamente[crear una funcion para que si el jugador o dealer ya tenga 21 imprimir juego terminado]
+  -eleccion de perdir o no cartas [desplegar opciones para pedir cartas o pasar]
+    -si se pasa de 21 el jugador pierde [funcion para detectar si al jugador se pasa de 21, imprimir "jugador"perdio]
+  -juega el dealer[hacer una funcion para que la computadora(dealer) juegue sola]
+    -misma puntuacion que el dealer queda empate y se recogen las cartas [opcion para detectar empate, no se pierde en caso de empate]
+  -gana el que mas se acerco a 21 [detectar quien se acerco mas a 21, imprimir "jugador" a ganado]
+      -finaliza la partida [imprimir "juego terminado"]
+      [opciones:jugar de nuevo o salir]
+      - los datos del usuario se guardan [los datos se actualizan o se guardan en el archivo de usuarios]
+
+
+
+
+*reglas del dealer(obligatorias)
+-pedir siempre una carta si tiene menos de 17 puntos[opcion para que la computadora(diler) cada vez que detecte que tiene menos de 17 punto pida 1 carta]
+
+
+
+
