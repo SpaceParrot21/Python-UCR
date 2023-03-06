@@ -11,11 +11,11 @@
 
 ### Esta tarea consta de 6 documentos:
 
-#### Codigo principal del juego - BlackJack Game:
+#### - Codigo principal del juego - BlackJack Game:
 
 [![Link directo al codigo principal main_blackjack_game.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_blackjack_game.py)]
 
-#### The following module contains the functions for the following tasks:
+#### - The following module contains the functions for the following tasks:
 - Display menu of users
 - Show players' stats
 - Show cards
@@ -25,19 +25,19 @@
 
 [![Link directo a codigo main_functions_module.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/main_functions_module.py)]
 
-#### Class to create a proper deck of cards containing 52 Card objects (deck)with the help of class_deck.py class to retrun a string in the form “Two of Hearts + unicode value”:
+#### - Class to create a proper deck of cards containing 52 Card objects (deck)with the help of class_deck.py class to retrun a string in the form “Two of Hearts + unicode value”:
 
 [![Link directo a codigo class_card.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_card.py)]
 
-#### Contains the values suits, suit values, ranks and the Card Class, we generate a deck of cards, shuffle our deck, and to deal out cards during gameplay:
+#### - Contains the values suits, suit values, ranks and the Card Class, we generate a deck of cards, shuffle our deck, and to deal out cards during gameplay:
 
 [![Link directo a codigo class_deck.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_deck.py)]
 
-#### Hand class may be used to calculate the value of those cards using the values dictionary defined in this file. It also adjusts the value of Aces when appropriate:
+#### - Hand class may be used to calculate the value of those cards using the values dictionary defined in this file. It also adjusts the value of Aces when appropriate:
 
 [![Link directo a codigo class_hand.py](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/class_hand.py)]
 
-#### This file contains the player stats saved after each game:
+#### - This file contains the player stats saved after each game:
 
 [![Link directo a codigo player_stats.txt](https://github.com/SpaceParrot21/Python-UCR/blob/Tarea_5/Tareas/Tarea_5/Final/player_stats.txt)]
 
